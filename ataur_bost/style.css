@@ -6,19 +6,10 @@ body{
     background-color: #FFFFFF !important;
 }
 
-.porda{
-background-image:url(at23.jpg);
-height:350px;
-width:300px;
-margin:150px auto;
-background-size:cover;
-background-position:center center;
-position:relative;
-}
 .porda:before{
 	background:#ff6b81;
 	width:145px;
-	height:350px;
+	height:400px;
 	content:'';
 	display:block;
 	clear:both;
@@ -29,8 +20,8 @@ position:relative;
 }
 .porda:after{
 	background:#ff6b81;
-	width:152px;
-	height:350px;
+	width:155px;
+	height:400px;
 	content:'';
 	display:block;
 	clear:both;
@@ -40,13 +31,13 @@ position:relative;
 	transition:2s;
 }
 .porda:hover:before{
-	left:-150px;
+	left:-130px;
 	transform:rotateY(180deg);
 	background:#70a1ff;
 	
 }
 .porda:hover:after{
-	right:-150px;
+	right:-130px;
 	transform:rotateY(180deg);
 	background:#70a1ff;
 }
