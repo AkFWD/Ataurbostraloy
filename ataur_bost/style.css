@@ -5,7 +5,15 @@ body{
 .bg-lightest {
     background-color: #FFFFFF !important;
 }
-
+.porda{
+background-image:url(at23.jpg);
+height:400px;
+width:320px;
+margin:150px auto;
+background-size:cover;
+background-position:center center;
+position:relative;
+}
 .porda:before{
 	background:#ff6b81;
 	width:145px;
