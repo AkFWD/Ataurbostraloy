@@ -5,6 +5,7 @@ body{
 .bg-lightest {
     background-color: #FFFFFF !important;
 }
+
 .porda{
 background-image:url(at23.jpg);
 height:400px;
@@ -24,7 +25,7 @@ position:relative;
 	position:absolute;
 	top:0;
 	left:0;
-	transition:2s;
+	transition:5s;
 }
 .porda:after{
 	background:#ff6b81;
@@ -36,7 +37,7 @@ position:relative;
 	position:absolute;
 	top:0;
 	right:0;
-	transition:2s;
+	transition:5s;
 }
 .porda:hover:before{
 	left:-130px;
