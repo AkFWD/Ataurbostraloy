@@ -18,7 +18,7 @@ position:relative;
 .porda:before{
 	background-image:url(at24.jpg);
 	background-size:cover;
-	width:145px;
+	width:160px;
 	height:400px;
 	content:'';
 	display:block;
@@ -31,7 +31,7 @@ position:relative;
 .porda:after{
 	background-image:url(at25.jpg);
 	background-size:cover;
-	width:155px;
+	width:175px;
 	height:400px;
 	content:'';
 	display:block;
@@ -42,14 +42,14 @@ position:relative;
 	transition:5s;
 }
 .porda:hover:before{
-	left:-160px;
+	left:-182px;
 	transform:rotateY(180deg);
      background-image:url(at24.jpg);
 	background-size:cover;;
 	
 }
 .porda:hover:after{
-	right:-160px;
+	right:-182px;
 	transform:rotateY(180deg);
 	background-image:url(at25.jpg);
 	background-size:cover;
