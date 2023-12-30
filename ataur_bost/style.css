@@ -40,13 +40,13 @@ position:relative;
 	transition:5s;
 }
 .porda:hover:before{
-	left:-130px;
+	left:-145px;
 	transform:rotateY(180deg);
 	background:#70a1ff;
 	
 }
 .porda:hover:after{
-	right:-130px;
+	right:-155px;
 	transform:rotateY(180deg);
 	background:#70a1ff;
 }
