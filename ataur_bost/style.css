@@ -16,7 +16,8 @@ background-position:center center;
 position:relative;
 }
 .porda:before{
-	background:#ff6b81;
+	background-image:url(12223.jpg);
+	background-size:cover;
 	width:145px;
 	height:400px;
 	content:'';
@@ -28,7 +29,8 @@ position:relative;
 	transition:5s;
 }
 .porda:after{
-	background:#ff6b81;
+	background-image:url(122233.jpg);
+	background-size:cover;
 	width:155px;
 	height:400px;
 	content:'';
@@ -40,15 +42,17 @@ position:relative;
 	transition:5s;
 }
 .porda:hover:before{
-	left:-145px;
+	left:-160px;
 	transform:rotateY(180deg);
-	background:#70a1ff;
+     background-image:url(122233.jpg);
+	background-size:cover;;
 	
 }
 .porda:hover:after{
-	right:-155px;
+	right:-160px;
 	transform:rotateY(180deg);
-	background:#70a1ff;
+	background-image:url(122233.jpg);
+	background-size:cover;
 }
 
 .top5{
