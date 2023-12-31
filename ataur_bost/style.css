@@ -16,7 +16,7 @@ background-position:center center;
 position:relative;
 }
 .porda:before{
-	background-image:url(at24.jpg);
+	background-image:url(at26.jpg);
 	background-size:cover;
 	width:160px;
 	height:400px;
@@ -44,15 +44,16 @@ position:relative;
 .porda:hover:before{
 	left:-182px;
 	transform:rotateY(180deg);
-     background-image:url(at24.jpg);
+     background-image:url(at26.jpg);
 	background-size:cover;;
 	
 }
 .porda:hover:after{
-	right:-182px;
+	right:-175px;
 	transform:rotateY(180deg);
 	background-image:url(at25.jpg);
 	background-size:cover;
+	
 }
 
 .top5{
