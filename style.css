@@ -28,6 +28,40 @@ position:relative;
 	left:0;
 	transition:5s;
 }
+.main-manue{
+	background:#192a56;
+	
+}
+.main-manue ul{
+	margin:0;
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+	margin:0px 0px 0px 150px;
+}
+.main-manue ul li{
+	float:left;
+	
+}
+.main-manue ul li a{
+color:#C4E538;
+padding:10px;
+font-size:60px;
+text-decoration:none;	
+display:block;
+padding:10px;
+border:1px solid green;
+font-family:David;
+font-size:15px;
+
+}
+.main-manue ul li a:hover{
+background:#B53471;
+
+}
+.main-manue ul ui li{
+	float:none;
+}
 .porda:after{
 	background-image:url(at25.jpg);
 	background-size:cover;
@@ -587,7 +621,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 }
 
 
-/*individual faculty member page css start*/
+/*individual faculty member page css 900px start*/
 
 .indiv-fac-mem-bg {
     background-color: #FFFFFF;
